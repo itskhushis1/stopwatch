@@ -257,7 +257,9 @@ int main() {
 		}
 		
 		gotoxy(10,22); cout<<"Do you want to use stop watch again (y/n): ";
+		
 		op = getch();
+		
 	}while(op=='y' || op=='Y');
 	
 	
