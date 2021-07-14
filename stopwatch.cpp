@@ -75,6 +75,7 @@ char sep[5][3] = {	' ',' ',' ',
  
 
 HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
+
 COORD CursorPosition;
 
 void gotoxy(int x, int y){
