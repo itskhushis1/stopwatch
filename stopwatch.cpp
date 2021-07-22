@@ -93,6 +93,7 @@ void setcursor(bool visible, DWORD size) {
 	lpCursor.dwSize = size;
 	SetConsoleCursorInfo(console,&lpCursor);
 }
+
 void printDigit(int no, int x, int y ){
 	 
 	for(int i=0; i<5; i++){
